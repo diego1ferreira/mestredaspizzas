@@ -33,15 +33,18 @@
                 <div class="toolbar-inner display-flex">
                     <a href="/index/" class="tab-link link active">
                         <i class="mdi mdi-home"></i>
-                        <span>Link 1</span>
+                        <span>Home</span>
                     </a>
-                    <a href="/link2/" class="tab-link link">
-                        <i class="mdi mdi-link"></i>
-                        <span>Link 2</span>
+                    <a href="/link2/" class="tab-link link btn-cart" data-count="0">
+                        <i class="mdi mdi-cart-variant"></i>
+                        <span class="cart-label">
+                            Carrinho <span class="cart-badge"></span>
+                        </span>
                     </a>
+
                     <a href="/link3/" class="tab-link link">
                         <i class="mdi mdi-account"></i>
-                        <span>Link 3</span>
+                        <span>Usuário</span>
                     </a>
 
                 </div>
@@ -50,30 +53,150 @@
             <!-- Initial Page, "data-name" contains page name -->
             <div data-name="index" class="page color-theme-blue">
 
-                <!-- Top Navbar -->
-                <div class="navbar">
-                    <div class="navbar-bg"></div>
-                    <div class="navbar-inner justify-content-center">
-                        <div class="title ">Template tab</div>
-                    </div>
+                <!-- NAVE TOPO -->
+
+                <div class="top-nav">
+                    <h1 class="title-logo">Mestre Das Pizzas</h1>
+
                 </div>
+
 
                 <!-- Scrollable page content -->
                 <div class="page-content">
                     <div class="block">
-                        Conteúdo do link 1
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/Imagem do WhatsApp de 2025-06-10 à(s) 02.37.17_58a74785.JPG">
+                                </div>
+                                <div class="swiper-slide">Slide 2</div>
+
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
                     </div>
+
+                    <div id="pizzas" class="row display-flex align-items-center justify-content-start"></div>
+                    <div class="item-card">
+                        <a href="#" class="item">
+                            <div class="img-container">
+                                <img src="img/depositphotos_13625299-stock-photo-pepperoni-pizza-on-white.jpg">
+                            </div>
+                            <div class="nome-rating">
+                                <span>Pizza de calabreza</span>
+                                <span>
+                                    <i class="mdi mdi-star"></i>
+                                    4.7
+                                </span>
+                            </div>
+                            <div class="price">R$ 32</div>
+                        </a>
+
+                    </div>
+                    <div id="pizzas" class="row display-flex align-items-center justify-content-start">
+                        <div class="item-card">
+                            <a href="#" class="item">
+                                <div class="img-container">
+                                    <img class="img-fluid"
+                                        src="img/png-transparent-hawaiian-pizza-vegetarian-cuisine-sicilian-pizza-tomato-vegetable-tomato-sauce-bell-pepper-onion-thumbnail.png"
+                                        alt="Pizza 1">
+                                </div>
+                                <div class="nome-rating">
+                                    <span>Pizza de Frango</span>
+                                    <span>
+                                        <i class="mdi mdi-star"></i> 4.8
+                                    </span>
+                                </div>
+                                <div class="price">R$ 32</div>
+                            </a>
+                        </div>
+                        <div class="item-card">
+                            <a href="#" class="item">
+                                <div class="img-container">
+                                    <img class="img-fluid"
+                                        src="img/png-transparent-california-style-pizza-pizza-ranch-hawaiian-pizza-sicilian-pizza-pizza-thumbnail.png"
+                                        alt="Pizza 2">
+                                </div>
+                                <div class="nome-rating">
+                                    <span>Pizza Margherita</span>
+                                    <span>
+                                        <i class="mdi mdi-star"></i> 4.9
+                                    </span>
+                                </div>
+                                <div class="price">R$ 28</div>
+                            </a>
+                        </div>
+                        <div class="item-card">
+                            <a href="#" class="item">
+                                <div class="img-container">
+                                    <img class="img-fluid" src="img/pizza3.png" alt="Pizza 3">
+                                </div>
+                                <div class="nome-rating">
+                                    <span>Pizza Portuguesa</span>
+                                    <span>
+                                        <i class="mdi mdi-star"></i> 4.8
+                                    </span>
+                                </div>
+                                <div class="price">R$ 30</div>
+                            </a>
+                        </div>
+                        <div class="item-card">
+                            <a href="#" class="item">
+                                <div class="img-container">
+                                    <img class="img-fluid" src="img/pizza2.png" alt="Pizza 2">
+                                </div>
+                                <div class="nome-rating">
+                                    <span>Pizza Margherita</span>
+                                    <span>
+                                        <i class="mdi mdi-star"></i> 4.9
+                                    </span>
+                                </div>
+                                <div class="price">R$ 28</div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="item-card">
+                        <a href="#" class="item">
+                            <div class="img-container">
+                                <img class="img-fluid" src="img/pizza3.png" alt="Pizza 3">
+                            </div>
+                            <div class="nome-rating">
+                                <span>Pizza Portuguesa</span>
+                                <span>
+                                    <i class="mdi mdi-star"></i> 4.8
+                                </span>
+                            </div>
+                            <div class="price">R$ 30</div>
+                        </a>
+                    </div>
+                    <div class="item-card">
+                        <a href="#" class="item">
+                            <div class="img-container">
+                                <img class="img-fluid" src="img/pizza2.png" alt="Pizza 2">
+                            </div>
+                            <div class="nome-rating">
+                                <span>Pizza Margherita</span>
+                                <span>
+                                    <i class="mdi mdi-star"></i> 4.9
+                                </span>
+                            </div>
+                            <div class="price">R$ 28</div>
+                        </a>
+                    </div>
+
+
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Path to Framework7 Library Bundle JS-->
-    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
-	<!-- jQuery -->
-	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
-    <!-- Roteamento do app-->
-    <script type="text/javascript" src="js/routes.js"></script>
-    <script src="cordova.js"></script>
+        <!-- Path to Framework7 Library Bundle JS-->
+        <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+        <!-- jQuery -->
+        <script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>
+        <!-- Roteamento do app-->
+        <script type="text/javascript" src="js/routes.js"></script>
+        <script src="cordova.js"></script>
 </body>
 
 </html>
